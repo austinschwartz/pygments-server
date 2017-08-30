@@ -19,6 +19,7 @@ INFO = "To format code, POST JSON with the following format: {\"lang\": \"langua
 def main():
     if request.method == 'POST':
         payload = request.form
+        print(request, payload)
         code = payload["code"]
         if "lang" in payload:
             lang = payload["lang"]

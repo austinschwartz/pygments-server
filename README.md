@@ -17,9 +17,10 @@ You can find my server at `https://pygments.austinschwartz.com/` if you want to 
 
 Install
 ==
-1. pip install -r requirements.txt
-2. Edit HOST and PORT in server.py
-3. python3 server.py
+1. virtualenv pygmentsserver
+2. source pygmentsserver/bin/activate
+3. pip install -r requirements.txt
+4. Then run server.py or `pip install gunicorn` and `gunicorn --bind 0.0.0.0:PORT wsgi:app`
 
 Note
 ==
