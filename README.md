@@ -13,7 +13,7 @@ And you'll receive back a highlighted html block. The language key is optional, 
 
 See: [here](https://github.com/richleland/pygments-css) for compatible css styles.
 
-You can find my server at `https://pygments.austinschwartz.com/` if you want to use that instead
+You can find my server at `https://infinite-lake-58284.herokuapp.com/` if you want to use that instead
 
 Install
 ==
